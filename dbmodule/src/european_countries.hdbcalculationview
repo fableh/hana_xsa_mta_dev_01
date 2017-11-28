@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="hana_xsa_mta_dev_01.dbmodule::european_countries" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="european_countries"/>
+<localVariables/>
+<variableMappings/>
+<dataSources/>
+<calculationViews>
+  <calculationView xsi:type="Calculation:ProjectionView" id="Projection_1">
+    <viewAttributes/>
+    <calculatedViewAttributes/>
+    <restrictedViewAttributes/>
+  </calculationView>
+</calculationViews>
+<logicalModel id="Projection_1">
+  <attributes/>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  
+    <shape expanded="true" modelObjectName="Projection_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="100" y="215"/>
+      <rectangleSize height="30" width="140"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>
